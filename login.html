@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>함께 노실 - 로그인</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+					<!-- Logo -->
+						<h1><a href="index.html" id="logo"><em>함께</em> 노실</a></h1>
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">소개</a></li>
+								<li class="current"><a href="#">함께 건강</a>
+									<ul>
+										<li>
+											<a href="#">함께 신체</a>
+											<ul>
+												<li><a href="1_1body1.html">고혈압</a></li>
+												<li><a href="1_1body2.html">골다공증</a></li>
+												<li><a href="1_1body3.html">당뇨병</a></li>
+												<li><a href="1_1body4.html">대상포진</a></li>
+												<li><a href="1_1body5.html">척추관 협착증</a></li>
+												<li><a href="1_1body6_etc.html">치매</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="#">함께 정신</a>
+											<ul>
+												<li><a href="1_2mental1.html">공황장애</a></li>
+												<li><a href="1_2mental2.html">망상장애</a></li>
+												<li><a href="1_2mental3.html">우울증</a></li>
+												<li><a href="1_2mental4.html">수면장애</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="1_3stretching1.html">함께 스트레칭</a>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">함께 복지</a>
+                        			<ul>
+                               			<li><a href="2_1bokji_giheng.html">기흥구</a></li>
+                               			<li><a href="2_1bokji_suzy.html">수지구</a></li>
+                               			<li><a href="2_1bokji.html">처인구</a></li>
+                            		</ul>
+                        		</li>
+								<li><a href="#">함께 인테리어</a>
+									<ul>
+										<li><a href="3_1interior.html">소개 및 안정성</a></li>
+										<li><a href="3_2interior.html">리모델링</a></li>
+										<li><a href="3_3interior.html">방</a></li>
+										<li><a href="3_4interior.html">화장실</a></li>
+										<li><a href="3_5interior.html">제품</a></li>
+									</ul>
+								</li>
+								<li><a href="login.html">로그인</a></li>									
+							</ul>
+						</nav>
+
+				</div>
+
+			<!-- Main -->
+				<script>
+					function userlogin()
+					{
+						var test_id = "value";
+						var test_password = "web";
+						var id_box = userid.value;
+						var password_box = userpassword.value;
+						if(test_id == id_box && test_password == password_box)
+						{
+							alert("로그인 성공");
+						}
+						else
+						{
+							alert("로그인 실패");
+						}
+
+					}
+				</script>
+ 				<div>
+    				<label for="userid">아이디</label>
+    				<input type="email" id="userid" placeholder="ID">
+    				<label for="userpassword">비밀번호</label>
+    				<input type="password" id="userpassword" placeholder="Password">
+  				</div>
+  					<td><input type = "button" value="로그인" onclick="userlogin()"></td>
+  				<div>
+    				<input type="checkbox" id="keepLogin" name="keepLogin">
+    				<label for="keepLogin"><span>로그인 상태 유지</span></label>
+  				</div>
+
+			<!-- Footer -->
+				<div id="footer">
+					
+
+					<!-- Icons -->
+						<ul class="icons">
+							<li><a href="https://instagram.com/_valueweb?igshid=tlcj4uqa84a" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						</ul>
+
+					<!-- Copyright -->
+						<div class="copyright">
+							<ul class="menu">
+								<li>밸류웹 대표 : 김형래</li> <br>
+								<li>대표 전화번호 :  010-8262-4544</li><br>
+								<li>문의사항 : _valueweb@instagram 또는 allone187@naver.com
+								<br>웹 페이지에 대한 문의사항은 전화나 인스타그램 DM 그리고 메일을 통해 받고 있습니다.</li><br>
+								<li>&copy; Untitled. All rights reserved</li></li>
+							</ul>
+						</div>
+
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
